@@ -173,7 +173,7 @@ public class LicenseFrame extends JFrame {
 		System.out.println(res);
 
 		// 加密JSON串
-		String code = AESUtils.encrypt(res);
+		String code = AESUtils.encryptBase64(res);
 		obj.setEncryptCode(code);
 		obj.setCpuSerial(null);
 		obj.setMacAddress(null);
