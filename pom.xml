@@ -54,7 +54,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>cn.simple.jcom.assist.App</mainClass>
+							<mainClass>cn.simple.jcom.license.App</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>
